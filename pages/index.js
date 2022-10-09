@@ -3,6 +3,9 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
 import rhythm from "../public/rhythm-wave.png";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
 
 
 export default function Home() {
@@ -43,8 +46,56 @@ export default function Home() {
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={rhythm} alt="rhythm" layout='fill' objectFit='cover'/>
           </div>
-
         </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1'>Services I offer</h3>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam autem modi suscipit dignissimos accusamus adipisci qui dolore molestiae nam corporis! <span className=' text-teal-500'> agencies </span> Lorem ipsum dolor sit amet consectetur <span className=' text-teal-500'> sponsor </span> adipisicing elit. Nisi, molestiae.
+            </p>
+            <p className='text-md py-2 leading-8 text-gray-800'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam autem modi suscipit dignissimos accusamus adipisci qui dolore molestiae nam corporis! <span className=' text-teal-500'> agencies </span> Lorem ipsum dolor sit amet consectetur <span className=' text-teal-500'> sponsor </span> adipisicing elit. Nisi, molestiae.
+            </p>
+          </div>
+          <div>
+            <div className='text-center shadow-lg p-10 rounded-xl'>
+              <Image src={design} alt="design" width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className='text-gray-800 py-1'>Adobe Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe Figma</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl'>
+              <Image src={code} alt="code" width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful code</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className='text-gray-800 py-1'>Adobe Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe Figma</p>
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl'>
+              <Image src={consulting} alt="consulting" width={100} height={100} />
+              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
+              </p>
+              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
+              <p className='text-gray-800 py-1'>Adobe Photoshop</p>
+              <p className='text-gray-800 py-1'>Adobe Illustrator</p>
+              <p className='text-gray-800 py-1'>Adobe Figma</p>
+            </div>
+          </div>
+        </section>
+
+        <section></section>
       </main>
     </div>
   );
