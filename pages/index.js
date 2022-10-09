@@ -67,10 +67,10 @@ export default function Home() {
             </p>
           </div>
           <div className=' lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300 flex-1'>
               <Image src={design} alt="design" width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-black'>Beautiful Designs</h3>
+              <p className=' text-black'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
               </p>
               <h4 className='py-4 text-teal-600'>Design tools I use</h4>
@@ -78,10 +78,10 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Adobe Illustrator</p>
               <p className='text-gray-800 py-1'>Adobe Figma</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300 flex-1'>
               <Image src={code} alt="code" width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful code</h3>
-              <p>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-black'>Beautiful code</h3>
+              <p className=' text-black'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
               </p>
               <h4 className='py-4 text-teal-600'>Design tools I use</h4>
@@ -89,10 +89,10 @@ export default function Home() {
               <p className='text-gray-800 py-1'>Adobe Illustrator</p>
               <p className='text-gray-800 py-1'>Adobe Figma</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-300 flex-1'>
               <Image src={consulting} alt="consulting" width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-black'>Beautiful Designs</h3>
+              <p className=' text-black'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nam?
               </p>
               <h4 className='py-4 text-teal-600'>Design tools I use</h4>
